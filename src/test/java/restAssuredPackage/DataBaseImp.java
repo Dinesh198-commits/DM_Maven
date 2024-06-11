@@ -13,7 +13,7 @@ public class DataBaseImp extends DataBaseTestingTrial{
 
     @Test
     public void test() throws ClassNotFoundException, SQLException {
-        String query = "select * from country";
+        String query = "select * * from country";
         Statement stats = connect.createStatement();
         ResultSet rs = stats.executeQuery(query);
         while(rs.next()){

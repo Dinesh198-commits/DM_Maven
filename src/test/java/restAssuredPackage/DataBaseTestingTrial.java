@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import java.sql.*;
 
+@Test
 public class DataBaseTestingTrial {
     public static Connection connect;
 
